@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="style.css">
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site de Séries</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body style="background-color:rgba(235, 235, 180, 0.925);">
+    <header class="bg-dark text-white text-center">
+        <table>
+            <tr>
+            <h1><img src="logotipo2.png" alt="Logo Do Site"></h1>
+            <h2 style="text-align: center;"><a href="explorer.html"> Explorar </a></h2>
+            <!-- <nav>
+                <ul class="list-inline">
+                    <li class="list-inline-item">
+                        <a href="#" class="text-white">Home</a>
+                        <a href="#" class="text-white">Séries Populares</a>
+                        <a href="#" class="text-white">Favoritas</a>
+                        <a href="#" class="text-white">Sobre</a>
+                    </li>
+                </ul>
+            </nav> -->
+            </tr>
+        </table>
+    </header>
+
+    <section class="container mt-5">
+        <h2 style="text-align: left;">Séries Populares</h2>
+        <hr>
+    </section>
+    <section id="carousel" class="carousel slide mt-4" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="strangerthings.jpg" class="d-block w-100" alt="Série 1">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 style="color: red; background-color: black;"><strong>STRANGER THINGS</strong></h5>
+                    <p class="description">Stranger Things é uma série sobrenatural de ficção científica criada pelos irmãos Duffer para a Netflix. Situada na cidade ficcional de Hawkins, Indiana, a trama começa no ano de 1983 com o desaparecimento do garoto Will.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="O _senhor_dos_aneis.jpg" class="d-block w-100" alt="Série 2">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 style="color: rgb(163, 106, 20); background-color: black;"><strong>O Senhor dos Anéis: Os Anéis do Poder</strong></h5>
+                    <p class="description">Situado na Segunda Era da Terra-média, milhares de anos antes dos eventos de O Hobbit e O Senhor dos Anéis, a série segue um elenco de personagens que enfrentam o ressurgimento do mal na Terra-média.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="breaking_bad.jpg" class="d-block w-100" alt="Série 3">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 style="color: rgb(208, 255, 0); background-color: black;"><strong>BREAKING BAD</strong></h5>
+                    <p class="description">Um professor do secundário com cancêr do pulmão terminal junta-se a um ex-aluno para fabricar e vender metanfetaminas como forma de garantir o futuro da sua família. </p>
+                </div>
+            </div>
+            <!-- Adicione mais itens do carrossel conforme necessário -->
+        </div>
+        <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Próximo</span>
+        </a>
+    </section>
+
+    <section class="container mt-5">
+        <h2 style="text-align: left;">Séries Recentes</h2>
+        <hr>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="serie_recente1.jpg" class="card-img-top" alt="Série Recente 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Série Recente 1</h5>
+                        <p class="card-text">Descrição da série recente 1.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Adicione mais cards conforme necessário -->
+        </div>
+        <h1></h1>
+    </section>
+
+    <section>
+        <div class="container text-center" style="background-color: rgba(192, 233, 43, 0.411);">
+            <h2 style="text-align: left;">Informações sobre o Responsável</h2>
+            <hr>
+            <p>Nome do Aluno: Rammid Andrew Barreto Da Silva</p>
+        </div>
+    </section>
+
+
+    <section class="container mt-5">
+        <h2 style="text-align: left;">Séries Favoritas</h2>
+        <hr>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="serie_favorita1.jpg" class="card-img-top" alt="Série Favorita 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Série Favorita 1</h5>
+                        <p class="card-text">Descrição da série favorita 1.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Adicione mais cards conforme necessário -->
+        </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    
+</body>
+</html>
+
+

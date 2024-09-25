@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1dca17;
+}
+
+button{
+    margin-left: 300px;
+    background-color: red;
+}
+
+h1{
+    width: 250px;
+    height: auto;
+}
+h2{
+    text-align: right;
+    
+}
+
+img{
+    width: 250px;
+    height: auto;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+.carousel-item img {
+    width: 100%;  /* Faz com que as imagens ocupem 100% da largura do carrossel */
+    height: 400px;  /* Ajusta a altura das imagens */
+    object-fit: cover;  /* As imagens vão se ajustar, cobrindo o carrossel sem distorção */
+}
+
+.carousel-item {
+    background-color: #351242; /* Cor de fundo do slide */
+    height: auto;
+    width: auto;
+    
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    padding: 20px;
+    background-color: rgba(236, 236, 199, 0);
+    
+}
+
+
+.carousel {
+    width: 60%;  /* Altera a largura do carrossel, por exemplo, 100% do contêiner */
+    height: 400px;  /* Define a altura desejada para o carrossel */
+    margin: 0 auto;  /* Centraliza o carrossel horizontalmente */
+}
+
+.carousel-slide {
+    display: none;
+    text-align: center;
+}
+
+.description {
+    background-color: rgba(0, 0, 0, 0.7);  /* Fundo semi-transparente */
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+
+hr {
+    border: none;          /* Remove a borda padrão */
+    height: 2px;          /* Define a altura da linha */
+    background-color: #000; /* Cor da linha */
+    margin: 20px 0;       /* Espaço acima e abaixo da linha */
+}
+
+button{
+    background-color: rgb(245, 245, 245);
+    border: 100;
+    color: white;
+}
+
+
+.carousel-indicators button {
+    background-color: #b8cbe0; /* Muda a cor dos indicadores */
+}
+
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.5); /* Fundo escuro semitransparente para o texto */
+    padding: 15px;
+}

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explorador de Séries</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body style="background-color:rgba(235, 235, 180, 0.925);">
+    <header class="bg-dark text-white text-center">
+        <h1><img src="logotipo2.png" alt="Logo Do Site"></h1>
+        <h2><a href="index.html" class="text-white"> Home </a></h2>
+    </header>
+
+    <section class="container mt-5">
+        <h2 class="text-left">Explorar Séries</h2>
+        <hr>
+        <form method="GET" action="explorer.html">
+            <input type="text" name="search" class="form-control" placeholder="Pesquisar séries...">
+            <button type="submit" class="btn btn-primary mt-2">Pesquisar</button>
+        </form>
+    </section>
+
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-md-3">
+                <h2 class="text-left">Filtros</h2>
+                <form method="GET" action="explorer.html">
+                    <div class="form-group">
+                        <select name="genre" class="form-control">
+                            <option value="">Selecionar Gênero</option>
+                            <option value="28">Ação</option>
+                            <option value="35">Comédia</option>
+                            <option value="18">Drama</option>
+                            <option value="27">Terror</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <select name="rating" class="form-control">
+                            <option value="">Selecionar Avaliação</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <select name="status" class="form-control">
+                            <option value="">Selecionar Status</option>
+                            <option value="Currently Airing">Em Exibição</option>
+                            <option value="Ended">Encerrada</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Aplicar Filtros</button>
+                </form>
+            </div>
+
+            <div class="col-md-9">
+                <h2 class="text-left">Séries Encontradas</h2>
+                <hr>
+                <div class="row">
+                    <!-- Exemplo de Cards com links para detalhes -->
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="serie1.jpg" class="card-img-top" alt="Série 1">
+                            <div class="card-body">
+                                <h5 class="card-title">Série 1</h5>
+                                <p class="card-text">Descrição da série 1.</p>
+                                <a href="details.html?id=1" class="btn btn-primary">Ver Detalhes</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="serie2.jpg" class="card-img-top" alt="Série 2">
+                            <div class="card-body">
+                                <h5 class="card-title">Série 2</h5>
+                                <p class="card-text">Descrição da série 2.</p>
+                                <a href="details.html?id=2" class="btn btn-primary">Ver Detalhes</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="serie3.jpg" class="card-img-top" alt="Série 3">
+                            <div class="card-body">
+                                <h5 class="card-title">Série 3</h5>
+                                <p class="card-text">Descrição da série 3.</p>
+                                <a href="details.html?id=3" class="btn btn-primary">Ver Detalhes</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Adicione mais cards conforme necessário -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section>
+        <div class="container text-center mt-5" style="background-color: rgba(192, 233, 43, 0.411);">
+            <h2 style="text-align: left;">Informações sobre o Responsável</h2>
+            <hr>
+            <p>Nome do Aluno: Rammid Andrew Barreto Da Silva</p>
+        </div>
+    </section>
+</body>
+</html>
