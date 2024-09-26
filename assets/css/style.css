@@ -3,9 +3,21 @@ body {
     background-color: #1dca17;
 }
 
-button{
-    margin-left: 300px;
-    background-color: red;
+.explorer-button{
+    display: inline-block;
+    margin: 20px 1400px;
+    padding: 10px 20px;
+    background-color: rgb(61, 61, 197);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 20px;
+    text-decoration: none;
+}
+.explorer-button:hover {
+    background-color: #430fbe;
 }
 
 h1{
@@ -73,13 +85,6 @@ hr {
     background-color: #000; /* Cor da linha */
     margin: 20px 0;       /* Espaço acima e abaixo da linha */
 }
-
-button{
-    background-color: rgb(245, 245, 245);
-    border: 100;
-    color: white;
-}
-
 
 .carousel-indicators button {
     background-color: #b8cbe0; /* Muda a cor dos indicadores */
