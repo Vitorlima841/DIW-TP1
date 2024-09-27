@@ -6,25 +6,26 @@
     <title>Explorador de Séries</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/styleexplorer.css">
+    <style>
+        /* Estilo do cabeçalho */
+        
+    </style>
 </head>
-<body style="background-color:rgba(235, 235, 180, 0.925);">
-    <header class="bg-dark text-white text-left">
-        <a href="index.html"><img src="assets/image/logotipo2.png" alt="Logo Do Site"></a>
+<body>
+    <header>
+        <a href="index.html">
+            <img src="assets/image/logotipo2.png" alt="Logo Do Site">
+        </a>
+        <form method="GET" action="explorer.html" class="form-inline">
+            <input style="width: 300px;" type="text" name="search" class="form-control mr-2" placeholder="Pesquisar séries...">
+            <button type="submit" class="btn btn-primary" >Pesquisar</button>
+        </form>
     </header>
 
-    <section class="container mt-5">
-        <h2 class="text-left">Explorar Séries</h2>
-        <hr>
-        <form method="GET" action="explorer.html">
-            <input type="text" name="search" class="form-control" placeholder="Pesquisar séries...">
-            <button type="submit" class="btn btn-primary mt-2">Pesquisar</button>
-        </form>
-    </section>
-
-    <div class="container mt-4">
+    <div class="container">
         <div class="row">
-            <div class="col-md-3">
-                <h2 class="text-left">Filtros</h2>
+            <div class="col-md-3 filtro-secao">
+                <h2>Filtros</h2>
                 <form method="GET" action="explorer.html">
                     <div class="form-group">
                         <select name="genre" class="form-control">
@@ -54,10 +55,8 @@
             </div>
 
             <div class="col-md-9">
-                <h2 class="text-left">Séries Encontradas</h2>
-                <hr>
+                <h2>Séries Encontradas</h2>
                 <div class="row">
-                    <!-- Exemplo de Cards com links para detalhes -->
                     <div class="col-md-4">
                         <div class="card">
                             <img src="serie1.jpg" class="card-img-top" alt="Série 1">
@@ -88,7 +87,6 @@
                             </div>
                         </div>
                     </div>
-                    <!-- Adicione mais cards conforme necessário -->
                 </div>
             </div>
         </div>
@@ -101,5 +99,9 @@
             <p>Nome do Aluno: Rammid Andrew Barreto Da Silva</p>
         </div>
     </section>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>

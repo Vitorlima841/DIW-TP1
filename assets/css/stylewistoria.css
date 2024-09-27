@@ -1,163 +1,153 @@
 body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
 
-        h1, h2, h3 {
-            text-align: center;
-        }
+h1, h2, h3 {
+    text-align: center;
+}
 
-        .container {
-            width: 90%;
-            margin: 0 auto;
-            max-width: 1200px;
-        }
 
-        .section {
-            margin: 30px 0;
-            padding: 20px;
-            background-color: white;
-            border-radius: 8px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-        }
+.explorer-button{
+    background-color: #eaee05d0; /* Cor de fundo do botão */
+    color: white; /* Cor do texto */
+    padding: 10px 20px; /* Espaçamento interno */
+    border: 2px solid #eaee0593; /* Borda da mesma cor que o fundo */
+    border-radius: 30px; /* Bordas arredondadas */
+    font-size: 18px; /* Tamanho do texto */
+    font-weight: bold; /* Deixar o texto em negrito */
+    text-transform: uppercase; /* Deixar o texto todo em maiúsculas */
+    text-align: center; /* Centralizar o texto */
+    text-decoration: none; /* Remover sublinhado */
+}
+.explorer-button:hover {
+    background-color: #fbff08dc; /* Muda a cor de fundo ao passar o mouse */
+    color: #ffffff; /* Muda a cor do texto ao passar o mouse */
+    border: 2px solid #eaee05d0; /* Manter a borda ao passar o mouse */
+    cursor: pointer; /* Mudar o cursor para "pointer" */
+    box-shadow: 4px 0px 15px 5px rgba(255, 254, 254, 0.2); /* Sombra ao passar o mouse */
+    text-decoration: none; /* Remover sublinhado */
 
-        /* Seção 1: Informações Gerais */
-        .info-geral {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
 
-        .info-geral img {
-            width: 100%;
-            max-width: 400px;
-            border-radius: 10px;
-            margin-bottom: 20px;
-        }
+}
 
-        .info-geral p {
-            font-size: 18px;
-            margin-bottom: 10px;
-        }
+.container {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
 
-        .fav-button {
-            padding: 10px 20px;
-            background-color: #ff6347;
-            color: white;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            font-size: 16px;
-        }
+.section {
+    margin: 30px 0;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
 
-        .fav-button:hover {
-            background-color: #ff4500;
-        }
+/* Seção 1: Informações Gerais */
+.info-geral {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
-        .explorer-button{
-            display: inline-block;
-            margin: 20px 1380px;
-            padding: 10px 20px;
-            background-color: rgb(61, 61, 197);
-            color: white;
-            border: none;
-            border-radius: 5px;
-            text-align: center;
-            cursor: pointer;
-            font-size: 30px;
-            text-decoration: none;
-        }
-        .explorer-button:hover {
-            background-color: #430fbe;
-        }
+.info-geral img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
 
-        /* Botão Voltar */
-        .back-button {
-            display: inline-block;
-            margin: 20px 100px;
-            padding: 10px 20px;
-            background-color: #007bff;
-            color: white;
-            border: none;
-            border-radius: 5px;
-            text-align: center;
-            cursor: pointer;
-            font-size: 16px;
-            text-decoration: none;
-        }
+.info-geral p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
 
-        .back-button:hover {
-            background-color: #0056b3;
-        }
+.fav-button {
+    padding: 10px 20px;
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
 
-        
+.fav-button:hover {
+    background-color: #ff4500;
+}
 
-        /* Seção 2: Elenco */
-        .elenco {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-            gap: 20px;
-        }
 
-        .elenco-card {
-            text-align: center;
-        }
+/* .back-button {
+    display: inline-block;
+    margin: 20px 100px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+}
 
-        .elenco-card img {
-            width: 100%;
-            border-radius: 50%;
-        }
+.back-button:hover {
+    background-color: #0056b3;
+} */
 
-        .elenco-card p {
-            margin-top: 10px;
-            font-size: 16px;
-            font-weight: bold;
-        }
 
-        /* Seção 3: Temporadas e Episódios */
-        .temporadas {
-            display: flex;
-            flex-direction: column;
-            gap: 20px;
-        }
+/* Seção 2: Elenco */
+.elenco {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 20px;
+}
 
-        .temporada {
-            background-color: #f9f9f9;
-            padding: 15px;
-            border-left: 5px solid #333;
-            border-radius: 8px;
-        }
+.elenco-card {
+    text-align: center;
+}
 
-        .temporada h3 {
-            margin-bottom: 10px;
-        }
+.elenco-card img {
+    width: 100%;
+    border-radius: 50%;
+}
 
-        .episodios {
-            display: flex;
-            flex-direction: column;
-            gap: 10px;
-        }
+.elenco-card p {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
 
-        .episodio {
-            background-color: #eee;
-            padding: 10px;
-            border-radius: 5px;
-        }
+/* Seção 3: Temporadas e Episódios */
+.temporadas {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
 
-        /* Responsividade */
-        @media (max-width: 768px) {
-            .info-geral {
-                flex-direction: column;
-                text-align: center;
-            }
+.temporada {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-left: 5px solid #333;
+    border-radius: 8px;
+}
 
-            .elenco {
-                grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
-            }
+.temporada h3 {
+    margin-bottom: 10px;
+}
 
-            .temporadas {
-                flex-direction: column;
-            }
-        }
+.episodios {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.episodio {
+    background-color: #eee;
+    padding: 10px;
+    border-radius: 5px;
+}

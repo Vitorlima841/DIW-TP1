@@ -1,23 +1,24 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #1dca17;
-}
 
 .explorer-button{
-    display: inline-block;
-    margin: 20px 1400px;
-    padding: 10px 20px;
-    background-color: rgb(61, 61, 197);
-    color: white;
-    border: none;
-    border-radius: 5px;
-    text-align: center;
-    cursor: pointer;
-    font-size: 20px;
-    text-decoration: none;
+    background-color: #eaee05d0; /* Cor de fundo do botão */
+    color: white; /* Cor do texto */
+    padding: 10px 20px; /* Espaçamento interno */
+    border: 2px solid #eaee0593; /* Borda da mesma cor que o fundo */
+    border-radius: 30px; /* Bordas arredondadas */
+    font-size: 18px; /* Tamanho do texto */
+    font-weight: bold; /* Deixar o texto em negrito */
+    text-transform: uppercase; /* Deixar o texto todo em maiúsculas */
+    text-align: center; /* Centralizar o texto */
+    text-decoration: none; /* Remover sublinhado */
 }
 .explorer-button:hover {
-    background-color: #430fbe;
+    background-color: #fbff08dc; /* Muda a cor de fundo ao passar o mouse */
+    color: #ffffff; /* Muda a cor do texto ao passar o mouse */
+    border: 2px solid #eaee05d0; /* Manter a borda ao passar o mouse */
+    cursor: pointer; /* Mudar o cursor para "pointer" */
+    box-shadow: 4px 0px 15px 5px rgba(255, 254, 254, 0.2); /* Sombra ao passar o mouse */
+    text-decoration: none; /* Remover sublinhado */
+
 }
 
 h1{

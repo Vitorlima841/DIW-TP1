@@ -1,17 +1,56 @@
-.back-button {
-    display: inline-block;
-    margin: 20px 10px;
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    text-align: center;
-    cursor: pointer;
-    font-size: 16px;
-    text-decoration: none;
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
 }
 
-.back-button:hover {
-    background-color: #0056b3;
+header img {
+    height: auto;
+    width: 200px;
+}
+
+form input[type="text"] {
+    width: 60%;
+    display: inline-block;
+}
+
+form button {
+    display: inline-block;
+}
+
+/* Estilo dos cards e seção de filtros */
+.container {
+    margin-top: 20px;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+.filtro-secao {
+    background-color: #c5c90979;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Estilo geral */
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgba(235, 235, 180, 0.925);
+}
+
+h2 {
+    font-weight: bold;
+    color: #333;
+}
+
+.btn-primary {
+    background-color: #5a5aff;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #4141ff;
 }
